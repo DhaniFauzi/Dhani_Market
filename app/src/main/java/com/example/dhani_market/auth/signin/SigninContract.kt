@@ -1,10 +1,12 @@
 package com.example.dhani_market.auth.signin
 
 import com.example.dhani_market.base.BasePresenter
-import com.example.dhani_market.model.LoginResponse
+import com.example.dhani_market.base.BaseView
+import com.example.dhani_market.login.LoginResponse
 
 interface SigninContract {
-    interface BaseView{ //cek disini klo salah (di pak rosid ada tulisan view nya)
+    interface View : BaseView {
+
         fun onLoginSuccess(loginResponse: LoginResponse)
         fun onLoginFailed(message:String)
     }

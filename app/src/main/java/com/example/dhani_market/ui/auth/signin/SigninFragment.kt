@@ -1,4 +1,4 @@
-package com.example.dhani_market.auth.signin
+package com.example.dhani_market.ui.auth.signin
 
 import android.app.Dialog
 import android.content.Intent
@@ -8,10 +8,12 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
-import com.example.dhani_market.MainActivity
+import com.example.dhani_market.FoodMarket
 import com.example.dhani_market.R
-import com.example.dhani_market.login.LoginResponse
+import com.example.dhani_market.model.response.login.LoginResponse
 import com.google.gson.Gson
+import kotlinx.android.synthetic.main.fragment_signin.*
+import kotlinx.android.synthetic.main.fragment_signup_address.*
 
 
 class SigninFragment : Fragment(), SigninContract.View {
@@ -22,13 +24,13 @@ class SigninFragment : Fragment(), SigninContract.View {
         super.onCreate(savedInstanceState)
         presenter=SigninPresenter(this)
         if(!FoodMarket.getApp().getToken().isNullOrEmpty()){
-            val home = Intent(activity, MainActivity::class.java)
+            val home = Intent(activity, FoodMarket::class.java)
             startActivity(home)
             activity?.finish()
         }
         initDummy()
         initView()
-        btnSignup.setOnClickListener{
+        btnSignUpNow.setOnClickListener{
             var email = etEmail.text.toString()
             var password = etPassword.text.toString()
             if(email.isNullOrEmpty()){
@@ -49,7 +51,7 @@ class SigninFragment : Fragment(), SigninContract.View {
         val gson=gson.toJson(loginResponse.user)
         FoodMarket.getApp().setUser(json)
 
-        val home = Intent(activity, MainActivity::class.java)
+        val home = Intent(activity, FoodMarket::class.java)
         startActivity(home)
         activity.finish()
     }

@@ -5,7 +5,12 @@
       <map>
         <entry key="..\:/RFA/Semester 5/Mobile/Dhani_Market/app/src/main/res/font/poppins.xml" value="0.2222222222222222" />
         <entry key="..\:/RFA/Semester 5/Mobile/Dhani_Market/app/src/main/res/layout/activity_auth.xml" value="0.20969202898550723" />
+        <entry key="..\:/RFA/Semester 5/Mobile/Dhani_Market/app/src/main/res/layout/activity_main.xml" value="0.19293478260869565" />
         <entry key="..\:/RFA/Semester 5/Mobile/Dhani_Market/app/src/main/res/layout/activity_splash_screen.xml" value="0.264" />
+        <entry key="..\:/RFA/Semester 5/Mobile/Dhani_Market/app/src/main/res/layout/fragment_signin.xml" value="0.19293478260869565" />
+        <entry key="..\:/RFA/Semester 5/Mobile/Dhani_Market/app/src/main/res/layout/fragment_signup.xml" value="0.19293478260869565" />
+        <entry key="..\:/RFA/Semester 5/Mobile/Dhani_Market/app/src/main/res/layout/fragment_signup_address.xml" value="0.19293478260869565" />
+        <entry key="..\:/RFA/Semester 5/Mobile/Dhani_Market/app/src/main/res/layout/fragment_signup_success.xml" value="0.19293478260869565" />
       </map>
     </option>
   </component>

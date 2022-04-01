@@ -1,11 +1,11 @@
-package com.example.dhani_market.Splash_Screen
+package com.example.dhani_market.ui.Splash_Screen
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
 import com.example.dhani_market.R
-import com.example.dhani_market.auth.AuthActivity
+import com.example.dhani_market.ui.auth.AuthActivity
 
 class Splash_Screen : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

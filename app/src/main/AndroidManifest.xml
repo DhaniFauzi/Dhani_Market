@@ -10,13 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Dhani_Market">
         <activity
-            android:name=".auth.AuthActivity"
+            android:name="com.example.dhani_market.ui.auth.AuthActivity"
             android:exported="true" />
         <activity
-            android:name=".Splash_Screen.Splash_Screen"
+            android:name="com.example.dhani_market.ui.Splash_Screen.Splash_Screen"
             android:exported="true" />
         <activity
-            android:name=".MainActivity"
+            android:name=".FoodMarket"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

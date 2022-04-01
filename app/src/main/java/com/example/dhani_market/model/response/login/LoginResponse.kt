@@ -1,4 +1,4 @@
-package com.example.dhani_market.login
+package com.example.dhani_market.model.response.login
 
 import com.google.gson.annotations.Expose
 import com.google.gson.annotations.SerializedName

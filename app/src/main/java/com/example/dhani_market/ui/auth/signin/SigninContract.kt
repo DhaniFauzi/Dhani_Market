@@ -1,8 +1,8 @@
-package com.example.dhani_market.auth.signin
+package com.example.dhani_market.ui.auth.signin
 
 import com.example.dhani_market.base.BasePresenter
 import com.example.dhani_market.base.BaseView
-import com.example.dhani_market.login.LoginResponse
+import com.example.dhani_market.model.response.login.LoginResponse
 
 interface SigninContract {
     interface View : BaseView {

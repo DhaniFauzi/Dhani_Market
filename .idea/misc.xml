@@ -3,9 +3,17 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/RFA/Semester 5/Mobile/Dhani_Market/app/src/main/res/drawable/ic_picture_empty.xml" value="0.22037037037037038" />
+        <entry key="..\:/RFA/Semester 5/Mobile/Dhani_Market/app/src/main/res/drawable/ic_splash.xml" value="0.2703125" />
+        <entry key="..\:/RFA/Semester 5/Mobile/Dhani_Market/app/src/main/res/drawable/shape_rectangle_20_fff.xml" value="0.22037037037037038" />
+        <entry key="..\:/RFA/Semester 5/Mobile/Dhani_Market/app/src/main/res/drawable/shape_rectangle_8_020202.xml" value="0.22037037037037038" />
+        <entry key="..\:/RFA/Semester 5/Mobile/Dhani_Market/app/src/main/res/drawable/shape_rectangle_8_8d92a3.xml" value="0.22037037037037038" />
+        <entry key="..\:/RFA/Semester 5/Mobile/Dhani_Market/app/src/main/res/drawable/shape_rectangle_8_d9435e.xml" value="0.22037037037037038" />
+        <entry key="..\:/RFA/Semester 5/Mobile/Dhani_Market/app/src/main/res/drawable/shape_rectangle_8_ffc700.xml" value="0.22037037037037038" />
+        <entry key="..\:/RFA/Semester 5/Mobile/Dhani_Market/app/src/main/res/drawable/shape_rectangle_8_fff.xml" value="0.22037037037037038" />
         <entry key="..\:/RFA/Semester 5/Mobile/Dhani_Market/app/src/main/res/font/poppins.xml" value="0.2222222222222222" />
         <entry key="..\:/RFA/Semester 5/Mobile/Dhani_Market/app/src/main/res/layout/activity_auth.xml" value="0.20969202898550723" />
-        <entry key="..\:/RFA/Semester 5/Mobile/Dhani_Market/app/src/main/res/layout/activity_main.xml" value="0.19293478260869565" />
+        <entry key="..\:/RFA/Semester 5/Mobile/Dhani_Market/app/src/main/res/layout/activity_main.xml" value="0.264" />
         <entry key="..\:/RFA/Semester 5/Mobile/Dhani_Market/app/src/main/res/layout/activity_splash_screen.xml" value="0.264" />
         <entry key="..\:/RFA/Semester 5/Mobile/Dhani_Market/app/src/main/res/layout/fragment_signin.xml" value="0.19293478260869565" />
         <entry key="..\:/RFA/Semester 5/Mobile/Dhani_Market/app/src/main/res/layout/fragment_signup.xml" value="0.19293478260869565" />
